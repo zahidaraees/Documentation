@@ -1,0 +1,6 @@
+Test Case ID,Description,Steps,Expected Result,Actual Result,Status,Remarks
+TC001,Test Responsivness ,"Execute application, Resize Window, Clicked on different parts ",Layout Adjust,Layout Adjusted,Passed,Responsive
+TC002,"Validate Product listing on Landing page, Shop, Cart","checked slides on landing page, open Shop page, click on any product from the list and check single product , clicked on cart",Display on browser ,Errors on console while browser had no issue,Passed,Finally Handled
+TC003,Test API error handling ,Disconnected and refreshed ,Show proper result ,fallback message shown ,Passed,Spent 10 hrs to resolve this issue 
+TC004,Cart functionality checking ,Add item to cart from product list as well as single product detail page ,Cart Update,Cart Update,Passed,Worked well 
+TC005,Deploymenent testing,Deployed on versal and checked missing infomrations,no error ,data from sanity was invisible on landing page as well as single product page ,Passed,updated client information from env.local file 
